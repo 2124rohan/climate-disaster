@@ -1,0 +1,125 @@
+#bug1{
+
+    position: absolute;
+    animation-name: bug1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes bug1 {
+    0%{top:450px;
+        left:950px;}
+    25%{left:700px;
+        top:90px}
+    50%{left:1000px;
+        top:350px;}
+    75%{left:800px;
+        top:700px;}
+    100%{top:450px;
+        left:950px;}
+}
+
+
+#bug2{
+
+    position: absolute;
+    animation-name: bug2;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes bug2 {
+    0%{top:450px;
+        left:950px;}
+    20%{left:1100px;
+        top:90px}
+    40%{top:95px;
+        left:700px}
+    70%{left:1200px;
+        top:750px;}
+    80%{left:900px;
+        top:740px;}
+    100%{top:450px;
+        left:950px;}
+}
+
+
+#bug3{
+
+    position: absolute;
+    animation-name: bug3;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes bug3 {
+    0%{top:450px;
+        left:950px;}
+    25%{left:700px;
+        top:450px}
+    50%{left:800px;
+        top:750px;}
+    75%{left:1200px;
+        top:400px;}
+    100%{top:450px;
+        left:950px;}
+}
+
+
+
+#bug4{
+
+    position: absolute;
+    animation-name: bug4;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes bug4{
+    0%{top:450px;
+        left:950px;}
+    25%{left:700px;
+        top:350px}
+    50%{left:1099px;
+        top:150px;}
+    75%{left:1000px;
+        top:700px;}
+    100%{top:450px;
+        left:950px;}
+}
+
+
+
+
+#bug5{
+
+    position: absolute;
+    animation-name: bug5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes bug5{
+    0%{top:450px;
+        left:950px;}
+    20%{left:1250px;
+        top:450px}
+    40%{left:1200px;
+        top:90px;}
+    60%{left:750px;
+        top:110px;}
+    80%{top:800;
+        left:750;}
+    100%{top:450px;
+        left:950px;}
+}

@@ -1,0 +1,64 @@
+.group10{
+
+    position: absolute;
+    animation-name: red1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+
+}
+
+@keyframes red1 {
+    0%{top:450px;
+        left:950px;}
+
+    18%{left:700px;
+        top:90px}
+
+    35%{left:1200px;
+        top:90px;}
+
+    60%{left:700px;
+        top:800px;}
+
+    80%{left:1200px;
+        top:800px;}
+
+    100%{top:450px;
+        left:950px;}
+
+}
+
+
+.group11{
+
+    position: absolute;
+    animation-name: red2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+
+}
+
+@keyframes red2{
+    0%{top:450px;
+        left:950px;}
+
+    20%{left:950px;
+        top:250px;}
+
+    40%{left:700px;
+        top:450px;}
+
+    60%{left:950px;
+        top:650px;}
+
+    80%{left:1250px;
+        top:450px;}
+
+    100%{top:450px;
+        left:950px;}
+
+}

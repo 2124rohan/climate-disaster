@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/black-ant-animation.css">
+    <link rel="stylesheet" href="css/red-ant-animation.css">
+    <link rel="stylesheet" href="css/bug-animation.css">
+  </head>
+  <body onload="setTimeout(gameon,3000)">
+    <div id="main-div">
+      <div id="header">
+        Coin - Smasher
+      </div> 
+
+      <div id="info-div">
+          <div id="black-ant-info">
+            <img class="info-img" src="images/black-ant.png" alt="black ant">
+            <p class="points">10 Points</p>
+          </div>
+          <div id="red-ant-info">
+            <img class="info-img" src="images/bonus-antt.png" alt="bonus ant">
+            <p class="points">25 Points</p>
+          </div>
+          <div id="bug-info">
+            <img class="info-img" src="images/bugpng.png" alt="bug">
+            <p class="points">Game Over</p>
+          </div>
+          <div id="score=div">
+            <p id="score"></p>
+            <p id="score-text"class="points">Score</p>
+          </div>
+      </div>
+
+      <div id="game-area">
+        <img id="portal1" class="game-img group1 hidden" src="images/giphy.gif">
+        <img id="blood1" class="game-img group1 hidden" src="images/blood.png" alt="">
+        <img id="ant1" class="game-img group1" src="images/black-ant.png" alt="black ant" onclick="smashed1()">
+
+
+        <img id="portal2" class="game-img group2 hidden" src="images/giphy.gif">
+        <img id="blood2" class="game-img group2 hidden" src="images/blood.png" alt="">
+        <img id="ant2" class="game-img group2" src="images/black-ant.png" alt="black ant" onclick="smashed2()">
+
+
+        <img id="portal3" class="game-img group3 hidden" src="images/giphy.gif">
+        <img id="blood3" class="game-img group3 hidden" src="images/blood.png" alt="">
+        <img id="ant3" class="game-img group3" src="images/black-ant.png" alt="black ant" onclick="smashed3()">
+     
+
+        <img id="portal4" class="game-img group4 hidden" src="images/giphy.gif">
+        <img id="blood4" class="game-img group4 hidden" src="images/blood.png" alt="">
+        <img id="ant4" class="game-img group4" src="images/black-ant.png" alt="black ant" onclick="smashed4()">
+     
+
+        <img id="portal5" class="game-img group5 hidden" src="images/giphy.gif">
+        <img id="blood5" class="game-img group5 hidden" src="images/blood.png" alt="">
+        <img id="ant5" class="game-img group5" src="images/black-ant.png" alt="black ant" onclick="smashed5()">
+
+
+        <img id="portal6" class="game-img group6 hidden" src="images/giphy.gif">
+        <img id="blood6" class="game-img group6 hidden" src="images/blood.png" alt="">
+        <img id="ant6" class="game-img group6" src="images/black-ant.png" alt="black ant" onclick="smashed6()">
+
+
+        <img id="portal7" class="game-img group7 hidden" src="images/giphy.gif">
+        <img id="blood7" class="game-img group7 hidden" src="images/blood.png" alt="">
+        <img id="ant7" class="game-img group7" src="images/black-ant.png" alt="black ant" onclick="smashed7()">
+
+
+        <img id="portal8" class="game-img group8 hidden" src="images/giphy.gif">
+        <img id="blood8" class="game-img group8 hidden" src="images/blood.png" alt="">
+        <img id="ant8" class="game-img group8" src="images/black-ant.png" alt="black ant" onclick="smashed8()">
+
+
+        <img id="portal9" class="game-img group9 hidden" src="images/giphy.gif">
+        <img id="blood9" class="game-img group9 hidden" src="images/blood.png" alt="">
+        <img id="ant9" class="game-img group9" src="images/black-ant.png" alt="black ant" onclick="smashed9()">
+
+        <img id="portal10" class="game-img group10 hidden" src="images/giphy.gif">
+        <img id="blood10" class="game-img group10 hidden" src="images/blood.png" alt="">
+        <img id="red-ant1" class="game-img group10" src="images/bonus-antt.png" alt="black ant" onclick="smashed10()">
+
+        
+        <img id="portal11" class="game-img group11 hidden" src="images/giphy.gif">
+        <img id="blood11" class="game-img group11 hidden" src="images/blood.png" alt="">
+        <img id="red-ant2" class="game-img group11" src="images/bonus-antt.png" alt="black ant" onclick="smashed11()">
+
+
+
+        <img id="bug1" class="game-img" src="images/bugpng.png" alt="" onclick="game_over()">
+        <img id="bug2" class="game-img" src="images/bugpng.png" alt="" onclick="game_over()">
+        <img id="bug3" class="game-img" src="images/bugpng.png" alt="" onclick="game_over()">
+        <img id="bug4" class="game-img" src="images/bugpng.png" alt="" onclick="game_over()">
+        <img id="bug5" class="game-img" src="images/bugpng.png" alt="" onclick="game_over()">
+         
+        <img id="main_portal" src="images/giphy.gif" alt="">
+     
+      </div>
+
+      <div id="buttons-div">
+        <input id="Pause" class="button" type="button" onclick="window.location.reload();" value="Restart"><br>
+        <input id="Stop" class="button" type="button" onclick="game_over()" value="Stop">
+      </div>
+    </div>
+
+    <div id="game-over">
+      <input id="game_restart_end" type="button" value="Play Again" onclick="window.location.reload();">
+      <p id="your_score"></p>
+    </div>
+ 
+<script src="js/one.js"></script>
+  </body>
+</html>

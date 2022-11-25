@@ -1,0 +1,226 @@
+.group1{
+    position: absolute;
+    animation-name: ant1;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes ant1 {
+    0%{top:450px;
+        left:950px;}
+    25%{left:950px;
+        top:90px}
+    50%{left:1200px;
+        top:450px;}
+    75%{left:800px;
+        top:600px;}
+    100%{top:450px;
+        left:950px;}
+}
+
+
+.group2{
+    position: absolute;
+    animation-name: ant2;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes ant2 {
+    0%{top:450px;
+        left:950px;}
+    25%{left:700px;
+        top:780px;}
+    50%{left:1200px;
+        top: 279px;}
+    100%{top:450px;
+        left:950px}
+}
+
+
+.group3{
+    position: absolute;
+    animation-name: ant3;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes ant3 {
+    0%{top:450px;
+        left:950px;}
+    25%{left:700px;
+        top:200px}
+    50%{left:1200px;
+        top:400px;}
+    75%{left:1100px;
+        top:700px;}
+    100%{top:450px;
+        left:950px;}
+}
+
+
+.group4{
+    position: absolute;
+    animation-name: ant4;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes ant4 {
+    0%{top:450px;
+        left:950px;}
+    25%{left:1100px;
+        top:200px}
+    50%{left:700px;
+        top:800px;}
+    75%{left:800px;
+        top:300px;}
+    100%{top:450px;
+        left:950px;}
+}
+
+
+.group5{
+    position: absolute;
+    animation-name: ant5;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes ant5 {
+    0%{top:450px;
+        left:950px;}
+    25%{left:1100px;
+        top:700px}
+    50%{left:1000px;
+        top:300px;}
+    75%{left:700px;
+        top:500px;}
+    100%{top:450px;
+        left:950px;}
+}
+
+.group6{
+    position: absolute;
+    animation-name: ant6;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes ant6 {
+    0%{top:450px;
+        left:950px;}
+    19%{left:950px;
+        top:800px}
+    37%{left:700px;
+        top:800px;}
+    59%{left:1200px;
+        top:300px;}
+    72%{top:650px;
+        left:1130px;}
+    83%{top:150;
+        left:750px; }
+    100%{top: 450px;
+        left:950px;}
+
+}
+
+.group7{
+    position: absolute;
+    animation-name: ant7;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes ant7{
+    0%{top:450px;
+        left:950px;}
+
+    10%{top: 100px;
+        left: 700px;}
+    23%{top:100px;
+        left: 1230px;}
+    35%{top:330px;
+        left:700px;}
+    45%{top:800px;
+        left:700px;}
+    59%{top:600px;
+        left:1230px;}
+    69%{top:250px;
+        left:1230px;}
+    91%{top:800px;
+        left:800px;}
+    100%{top: 450px;
+        left:950px;}
+}
+
+
+.group8{
+    position: absolute;
+    animation-name: ant8;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes ant8{
+    0%{top:450px;
+        left:950px;}
+    17%{left:950px;
+        top:790px;}
+    33%{left:800px;
+        top:100px;}
+    50%{left:1100px;
+        top:600px;}
+    67%{top:700px;
+        left:800px;}
+    78%{top:300px;
+        left:700px; }
+    89%{top:300px;
+        left:1200px;}
+    100%{top: 450px;
+        left:950px;}
+}
+
+.group9{
+    position: absolute;
+    animation-name: ant9;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-play-state: running;
+}
+
+@keyframes ant9{
+    0%{top:450px;
+        left:950px;}
+    17%{left:1100px;
+        top:350px}
+    33%{left:1100px;
+        top:800px;}
+    50%{left:700px;
+        top:530px;}
+    67%{top:150px;
+        left:1000px;}
+    78%{top:800px;
+        left:950px; }
+    89%{top:100px;
+        left:700px;}
+    100%{top: 450px;
+        left:950px;}
+}
