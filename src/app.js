@@ -14,7 +14,7 @@ const viewsPath = path.join(__dirname, '../templates/views')
 const app = express()
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-const port = 3000
+const port = process.env.PORT || 7000
 
 //set (key , value to set)
 //set up handlebars engine and views location 
